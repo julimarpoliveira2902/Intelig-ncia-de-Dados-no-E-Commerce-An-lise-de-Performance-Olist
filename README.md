@@ -57,14 +57,14 @@ O dashboard de BI foi projetado em **duas páginas estratégicas** utilizando t�
 ### 📱 Página 1 - Overview Comercial & Receita
 Focada em acompanhar a saúde financeira do negócio, permitindo analisar picos de venda históricos e as categorias de maior faturamento. Contém controles interativos de período temporal e categorias de produtos.
 
-![Overview Comercial & Receita](./imagens/Pagina_1.jpeg)
+![Overview Comercial & Receita](./imagens/Pagina_1.jpg)
 
 ---
 
 ### ⚙️ Página 2 - Eficiência Operacional & Dinâmica de Preços
 Focada no monitoramento logístico e análise de dispersão de fretes para identificação de distorções geográficas e anomalias de cobrança de envio.
 
-![Eficiência Operacional & Dinâmica de Preços](./imagens/Pagina_2.jpeg)
+![Eficiência Operacional & Dinâmica de Preços](./imagens/Pagina_2.jpg)
 
 ---
 

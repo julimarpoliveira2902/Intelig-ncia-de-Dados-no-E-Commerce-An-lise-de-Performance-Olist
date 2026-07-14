@@ -4,20 +4,26 @@ Este repositório contém o projeto final do meu curso de formação em **Análi
 
 ---
 
+# 📊 Inteligência de Dados no E-Commerce: Análise de Performance Olist
+
+Este repositório contém o projeto final do meu curso de formação em **Análise de Dados**. O objetivo principal foi aplicar o ciclo completo de dados (Ingestão, Tratamento, Análise Exploratória e Visualização de Dados) utilizando dados reais do mercado de e-commerce brasileiro para gerar insights estratégicos de negócios.
+
+---
+
 ## 🏗️ Arquitetura do Projeto
 
 O fluxo de trabalho foi dividido de forma modular, garantindo eficiência de processamento e clareza analítica:
 
 ```mermaid
-graph TD
-    A[olist_orders_dataset.csv] --> D[Fato_Vendas]
+flowchart TD
+    A[olist_orders_dataset.csv] --> D(Fato Vendas)
     B[olist_order_items_dataset.csv] --> D
-    C[olist_products_dataset.csv] --> E[Dim_Produtos]
-    D --> F[Merge & Pipeline de Tratamento no Pandas]
+    C[olist_products_dataset.csv] --> E(Dim Produtos)
+    D --> F[Merge e Tratamento no Pandas]
     E --> F
-    F --> G[Análise Exploratória - Python]
+    F --> G[Análise Exploratória em Python]
     F --> H[Exportação: olist_vendas_tratado.csv]
-    H --> I[Dashboard Interativo - Looker Studio]
+    H --> I[Dashboard no Looker Studio]
 
 🛠️ Tecnologias e Ferramentas Utilizadas
 Linguagem Principal: Python 3

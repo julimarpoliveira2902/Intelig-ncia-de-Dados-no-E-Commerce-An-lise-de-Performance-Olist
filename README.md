@@ -62,31 +62,25 @@ Dinâmica do Frete: A correlação linear entre o preço do produto e o frete co
 
 Otimização de SEO: A maior parte dos produtos cadastrados apresenta nomes entre 40 e 60 caracteres, um padrão de indexação otimizado para buscadores.
 
-📊 Dashboard Interativo (Looker Studio)
+## 📊 Dashboard Interativo (Looker Studio)
 
-O dashboard de BI foi projetado em duas páginas estratégicas utilizando técnicas de Data Storytelling:
+O dashboard de BI foi projetado em **duas páginas estratégicas** utilizando técnicas de *Data Storytelling* para facilitar a tomada de decisão:
 
-Página 1 - Overview Comercial & Receita:
+### 📱 Página 1 - Overview Comercial & Receita
+Focada em acompanhar a saúde financeira do negócio, permitindo analisar picos de venda históricos e as categorias de maior faturamento. Contém controles interativos de período temporal e categorias de produtos.
 
-Gráfico de Linhas (Faturamento temporal cronológico).
+![Overview Comercial & Receita](./imagens/Pagina_1.jpeg)
 
-Gráfico de Barras (Ranking de categorias mais vendidas).
+---
 
-Controles interativos de período temporal e seleção de categoria de produto.
+### ⚙️ Página 2 - Eficiência Operacional & Dinâmica de Preços
+Focada no monitoramento logístico e análise de dispersão de fretes para identificação de distorções geográficas e anomalias de cobrança de envio.
 
-Página 2 - Eficiência Operacional & Dinâmica de Preços:
-
-Gráfico de Rosca (Status de entrega dos pedidos).
-
-Gráfico de Dispersão (Preço vs. Frete para identificação de agrupamentos).
-
-Tabela Dinâmica (Visão consolidada entre categoria, status e receita).
+![Eficiência Operacional & Dinâmica de Preços](./imagens/Pagina_2.jpeg)
 
 🔗 Links do Projeto
 
 📓 Notebook do Google Colab [https://colab.research.google.com/drive/1XLXy5BPYXZyYSW1SoY8Le2PdgFURogcx?usp=sharing]
-
-📊 Visualizar Dashboard Interativo no Looker Studio [https://datastudio.google.com/reporting/701720c9-447b-4b90-a8af-287c222872e8]
 
 👤 Autor
 
